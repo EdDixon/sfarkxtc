@@ -1,6 +1,8 @@
 sfarkxtc
 ========
 
+[![Build Status](https://travis-ci.org/raboof/sfarkxtc.svg?branch=master)](https://travis-ci.org/raboof/sfarkxtc)
+
 sfArk extractor, console version
 
 Converts soundfonts in the legacy sfArk v2 file format to sf2
@@ -8,7 +10,14 @@ Converts soundfonts in the legacy sfArk v2 file format to sf2
 Building
 ========
 
-Prerequisites: zlib and https://github.com/raboof/sfArkLib
+Prerequisites
+-------------
+
+* Install zlib, e.g. from the zlib1g-dev package
+* Build and install sfarklib as described at https://github.com/raboof/sfArkLib
+
+Building
+--------
 
     $ make
 
